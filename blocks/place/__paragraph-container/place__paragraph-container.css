@@ -1,0 +1,28 @@
+.place__paragraph-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1280px) {
+    .place__paragraph-container{
+      margin: 0;
+    }
+  }
+  @media screen and (max-width: 1279px) {
+    .place__paragraph-container{
+      margin: 0;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .place__paragraph-container{
+      margin: 0;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .place__paragraph-container{
+       margin-left: 16px;
+       margin-right: 16px;
+    }
+  }

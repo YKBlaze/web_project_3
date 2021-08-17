@@ -1,0 +1,9 @@
+.intro__list{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    margin: 33px 0 0 0;
+    padding: 0;
+  }
