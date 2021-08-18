@@ -3,7 +3,7 @@
     position: relative;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   @media screen and (min-width: 1280px) {
     .place__paragraph-container{
