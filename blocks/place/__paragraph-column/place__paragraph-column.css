@@ -1,4 +1,4 @@
-.place__paragraph-container{
+.place__paragraph-column{
     display: flex;
     position: relative;
     flex-direction: column;
@@ -6,22 +6,22 @@
     justify-content: flex-start;
   }
   @media screen and (min-width: 1280px) {
-    .place__paragraph-container{
+    .place__paragraph-column{
       margin: 0;
     }
   }
   @media screen and (max-width: 1279px) {
-    .place__paragraph-container{
+    .place__paragraph-column{
       margin: 0;
     }
   }
   @media screen and (max-width: 1023px) {
-    .place__paragraph-container{
+    .place__paragraph-column{
       margin: 0;
     }
   }
   @media screen and (max-width: 767px) {
-    .place__paragraph-container{
+    .place__paragraph-column{
        margin-left: 16px;
        margin-right: 16px;
     }
