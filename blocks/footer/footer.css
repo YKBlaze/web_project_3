@@ -4,10 +4,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 48px;
-    margin-left: 48px;
     padding-bottom: 24px;
   }
+  @media screen and (min-width: 1024px){
+    .footer{
+      margin-right: 48px;
+      margin-left: 48px;
+    } 
+    }
+  @media screen and (max-width: 1023px){
+    .footer{
+      margin-right: 24px;
+      margin-left: 24px;
+    } 
+    }
   @media screen and (max-width: 767px){
     .footer{
      display: flex;
@@ -15,7 +25,7 @@
      flex-direction: column;
      align-items: flex-start;
      justify-content: space-between;
-     margin-right: 139px;
+     margin-right: 16px;
      margin-left: 16px;
     } 
     }

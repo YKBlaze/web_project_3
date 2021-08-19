@@ -27,10 +27,3 @@
           margin-left: 0;
       }
   } 
-  @media screen and (max-width: 767px) {
-      .lead{
-          margin-top: 50px;
-          margin-right: 0;
-          margin-left: 0;
-      }
-  }
