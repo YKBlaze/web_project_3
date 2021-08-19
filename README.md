@@ -1,20 +1,50 @@
 # Project 3: From Portland to Portland
+------ 
+## UPDATES
+**version 1.0**
+
+The completed version of Practicum Project 3 is live.
+fixed footer margins
+fixed header links
+fixed @media queries duplicates
+fixed text fixed heights
+fixed __place-url-heading having convoluted code to a simpler one
+fixed cover margins
+added .nojekyll
+made README.md
 
 ### Overview
 * Intro
-* Figma
-* Images
+* Visit 
+* Languages
+* Design
+* Deployment and system requirements
+* Improvments
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes.
 
-**Figma**
+**Visit**
 
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
+* [Link to the project on Github pages](https://ykblaze.github.io/web_project_3/)
 
-**Images**
+**Languages**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+This project has been fully coded using CSS and HTML only. 
 
-Good luck and have fun!
+**Design**
+
+The project was designed using CSS flex and grid propreties, to add functionality on various screen sizes @media queries were implemented. All text elements are calculated using em measurement units. 
+
+**Deployment and system requirements**
+
+Webpage is compatible with all web-browsers and has no errors.
+
+**Improvments**
+
+Add more semantic tags to various html elements:
+1. lead__image as figure
+2. header__links as ul items
+3. footer__links as ul items
+4. lead__caption as figurecaption
