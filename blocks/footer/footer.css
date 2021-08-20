@@ -5,13 +5,9 @@
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 24px;
+    margin-right: 48px;
+    margin-left: 48px;
   }
-  @media screen and (min-width: 1024px){
-    .footer{
-      margin-right: 48px;
-      margin-left: 48px;
-    } 
-    }
   @media screen and (max-width: 1023px){
     .footer{
       margin-right: 24px;

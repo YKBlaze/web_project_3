@@ -4,17 +4,12 @@
     position: relative;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 92px;
+    margin-left: 148px;
+    margin-right: 442px;
   }
-  @media screen and (min-width: 1280px) {
-    .intro{
-       margin-top: 92px;
-       margin-left: 148px;
-       margin-right: 442px;
-    }
-  } 
   @media screen and (max-width: 1279px) {
     .intro{
-       margin-top: 92px;
        margin-left: 48px;
        margin-right: 286px;
     }

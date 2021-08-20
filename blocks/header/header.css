@@ -6,13 +6,9 @@
     justify-content: space-between;
     max-width: 100%;
     padding-top: 34px;
+    margin-left: 148px;
+    margin-right: 148px;
 }
-@media screen and (min-width: 1280px) {
-    .header{
-      margin-left: 148px;
-      margin-right: 148px;
-    }
-  } 
   @media screen and (max-width: 1279px) {
     .header{
         margin-right: 48px;

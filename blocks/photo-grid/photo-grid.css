@@ -1,17 +1,13 @@
 .photo-grid{
     display: grid;
     max-width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 92px;
   }
-  @media screen and (min-width: 1280px) {
-    .photo-grid{
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      gap: 16px;
-      margin-left: 48px;
-      margin-right: 48px;
-      margin-top: 92px;
-    }
-  } 
   @media screen and (max-width: 1279px) {
     .photo-grid{
       grid-template-columns:repeat(3, 1fr);
