@@ -1,5 +1,4 @@
-.page{
-    max-width: 1280px;
-    font-family: 'Inter', Arial, sans-serif;
-    margin: 0 auto;
+.page {
+    background: #2A2C2F;
+    background-size: 100vw;
 }

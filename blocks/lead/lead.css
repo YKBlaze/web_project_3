@@ -5,14 +5,10 @@
     justify-content: center;
     max-width: 100%;
     margin-bottom: 0;
+    margin-top: 58px;
+    margin-left: 148px;
+    margin-right: 148px;
   }
-  @media screen and (min-width: 1280px) {
-    .lead{
-        margin-top: 58px;
-        margin-left: 148px;
-        margin-right: 148px;
-    }
-  } 
   @media screen and (max-width: 1279px) {
       .lead{
           margin-top: 50px;
@@ -22,7 +18,6 @@
   } 
   @media screen and (max-width: 1023px) {
       .lead{
-          margin-top: 50px;
           margin-right: 0;
           margin-left: 0;
       }
